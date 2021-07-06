@@ -1,0 +1,57 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+body{
+  background-image: url("/bg-image/imager.jpg");
+  font-size: 16px;
+  
+  background-size: cover;
+  color: white;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #F7F7F9;
+}
+.navbar-nav  li a:hover {
+    color: black !important;
+
+}
+
+#mainTitile{
+  font-family: 'Papyrus', Fantasy;
+  color: black;
+  font-size: 50px;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+  background-color: #138496;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}

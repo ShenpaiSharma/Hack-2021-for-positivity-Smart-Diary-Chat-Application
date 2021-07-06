@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hack For positivity</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <p class="navbar-brand" id="mainTitile">Dear Diary...</p>
+      </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li id="home"><a href="/">HOME</a></li>
+          <li id="about"><a href="/about">ABOUT US</a></li>
+          <li id="contact"><a href="/compose">COMPOSE</a></li>
+          <li id="contact"><a href="/contact">CONTACT US</a></li>
+          <li id="contact"><a href="/feed">FEED</a></li>
+          <li id="contact"><a id="chatTag">Let's Chat!!</a></li>
+        </ul>
+    </div>
+  </nav>
+    <script>
+      var dep = <%= depression %>;
+      if(dep > 5){
+        document.getElementById("chatTag").href = "https://shielded-fortress-71286.herokuapp.com/";
+      }
+      else{
+        document.getElementById("chatTag").href = "https://evening-inlet-78205.herokuapp.com/";
+      }
+    </script>
+  <body>
+    <div class="container">
+    <h1>Home</h1>
+    <p> <%= startingContent %> </p>
+
+
+  <% posts.forEach(function(post){ %>
+
+	    <h1><%=post.title%></h1>
+	    <p>
+	    <%=post.content.substring(0, 100) + " ..."%>
+	    <a href="/posts/<%=post._id%>">Read More</a>
+	    </p>
+
+
+  <% }) %>
+
+
+<%- include("partials/footer"); -%>
