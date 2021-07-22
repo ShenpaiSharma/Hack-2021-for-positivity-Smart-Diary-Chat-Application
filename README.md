@@ -40,17 +40,19 @@ connect users of similar interests.
 
 - Friend's Chat: The chatroom that connects individuals of similar interests. The users can then chat on for a while, and share their stories.
 
-- Counsellor's Chat: he chatroom where that the user has been connected to a mental health expert, wherein he/she can share the problems/
+- Counsellor's Chat: he chatroom where that the user has been connected to a mental health expert, wherein he/she can share the problems.
 
-- Application link:
+
+
+Application link:
 
 https://tranquil-anchorage-14754.herokuapp.com/
 
 
-- Project Page:
+Project Page:
 
 https://hack2021forpositivity-platform.bemyapp.com/#/projects/5fdd1e16e1d465001b0a5dc7
 
-- Video Link:
+Video Link:
 
 https://drive.google.com/file/d/1B0I1E6eIfkTaei9SQUpc0r5bellhYYrM/view
